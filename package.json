@@ -1,0 +1,23 @@
+{
+  "name": "macrotrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --content-base app/"
+  },
+  "author": "Jakub Misterka <san.y4ku@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  },
+  "dependencies": {
+    "@cycle/core": "^3.1.0",
+    "@cycle/dom": "^5.3.0",
+    "rx": "^3.1.2"
+  }
+}
